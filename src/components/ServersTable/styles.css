@@ -1,0 +1,27 @@
+.servers-table{
+  width: 100%;
+  padding-bottom: 1.30rem;
+}
+.servers-table .table-container th, td{
+    border-left: 0.05rem solid #DDDDDD;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    padding: .3rem 2rem;
+    text-align: center;
+  }
+  .servers-table .table-container th{
+    background: #F0F0F0;
+    padding: 1.1rem 2rem;
+  }
+  .servers-table .table-container td{
+    font-weight: 400;
+  }
+  
+  .servers-table .table-container td:first-child{
+    width: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  .servers-table .table-container .last-line{
+      border-bottom: none;
+  }
