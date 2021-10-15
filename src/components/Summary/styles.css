@@ -1,21 +1,21 @@
-.sumary{
+.summary{
   width: 100%;
 }
-.sumary .table-container th, td{
+.summary .table-container th, td{
   border-bottom: 0.05rem solid #DDDDDD;
   font-size: 1.4rem;
   line-height: 1.8;
   padding: .3rem 2rem;
 }
-.sumary .table-container .last-line{
+.summary .table-container .last-line{
   border-bottom: none;
 }
-.sumary .table-container th{
+.summary .table-container th{
   width: 29%;
   background: #F0F0F0;
   padding: 1.1rem 2rem;
 }
-.sumary .table-container td{
+.summary .table-container td{
   font-weight: bold;
   text-align: left;
 }

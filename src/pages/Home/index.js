@@ -1,11 +1,12 @@
-import DefaultLayout from '../../components/DefaultLayout';
+import React from 'react';
+import { DefaultLayout } from '../../components/DefaultLayout';
 import ServersTable from '../../components/ServersTable';
-import Sumary from '../../components/Sumary';
+import Summary from '../../components/Summary';
 
 function Home() {
   return (
     <DefaultLayout>
-      <Sumary />
+      <Summary />
       <ServersTable />
     </DefaultLayout>
   );
