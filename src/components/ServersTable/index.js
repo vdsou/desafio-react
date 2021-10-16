@@ -6,7 +6,7 @@ import './styles.css';
 import { Context } from '../DefaultLayout';
 
 function ServersTable() {
-  const { serverList, setServerList } = useContext(Context);  
+  const { serverList, setServerList } = useContext(Context);
   const handleSelect = (event, id) => {
     const updated = serverList.map((server) => {
       if (server.id === id) {

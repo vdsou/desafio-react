@@ -1,3 +1,8 @@
+/**
+ * Valdir de Souza Silva
+ * vdsouza@outlook.com
+ * https://github.com/vdsou
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/global.css';
